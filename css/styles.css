@@ -62,7 +62,7 @@ body {
   line-height: 1.17;
   text-decoration: none;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color:#4d5ae5;
 }
 .logo-dark-theme {
   color: #f4f4fd;
@@ -98,6 +98,9 @@ body {
 }
 .link {
   text-decoration: none;
+}
+.menu-link{
+  color:#2e2f42;
 }
 
 /* ==================Hero================== */
