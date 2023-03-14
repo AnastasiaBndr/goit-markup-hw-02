@@ -15,7 +15,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 
-  color:#2e2f42;
+  color: #2e2f42;
 }
 .studio-color {
   color: #2e2f42;
@@ -47,8 +47,8 @@ body {
 .small-descr-dark-theme {
   color: #f4f4fd;
 }
-.studio-color-dark-theme{
-  color:#f4f4fd
+.studio-color-dark-theme {
+  color: #f4f4fd;
 }
 
 /* ==================Header================== */
@@ -62,10 +62,7 @@ body {
   line-height: 1.17;
   text-decoration: none;
   text-transform: uppercase;
-  color:#4d5ae5;
-}
-.logo-dark-theme {
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 .menu-item {
   font-style: normal;
@@ -99,8 +96,8 @@ body {
 .link {
   text-decoration: none;
 }
-.menu-link{
-  color:#2e2f42;
+.menu-link {
+  color: #2e2f42;
 }
 
 /* ==================Hero================== */
@@ -152,12 +149,11 @@ body {
 }
 
 /* ==================MAIN================== */
-.our-team{
-  background-color: #F4F4FD;
+.our-team {
+  background-color: #f4f4fd;
 }
-.our-team-list-item
-{
-  background-color: #FFFFFF;
+.our-team-list-item {
+  background-color: #ffffff;
 }
 
 /* ==================FOOTER================== */
