@@ -20,9 +20,10 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 0.83;
+  line-height: 1.2;
 
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .small-descr {
   font-family: "Roboto", sans-serif;
@@ -145,8 +146,14 @@ body {
 
 /* ==================PORTFOLIO================== */
 .navigation-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   width: 116px;
   height: 48px;
+  cursor: pointer;
 
   /* CLOUD */
 
@@ -166,6 +173,6 @@ body {
 }
 .navigation-button:hover,
 .navigation-button:focus {
-  color: #fff;
-  background-color: #4d5ae5;
+  color: #ffffff;
+  background-color: #404bbf;
 }
