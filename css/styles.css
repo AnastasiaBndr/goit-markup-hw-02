@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
 }
 /* ==================COMPONENTS================== */
 .secondary-title {
@@ -45,14 +45,14 @@ body {
 /* ==================Header================== */
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   text-decoration: none;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .logo-dark-theme {
   color: #f4f4fd;
@@ -62,7 +62,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
+  color: #434455;
 }
 .contact {
   font-style: normal;
@@ -75,8 +76,10 @@ body {
 }
 
 .menu-link:hover,
-.menu-link:focus {
-  color: #4d5ae5;
+.menu-link:focus,
+.menu-item:hover,
+.menu-item:focus {
+  color: #404bbf;
 }
 .list {
   list-style: none;
@@ -143,21 +146,21 @@ body {
 /* ==================PORTFOLIO================== */
 .navigation-button {
   width: 116px;
-height: 48px;
+  height: 48px;
 
-/* CLOUD */
+  /* CLOUD */
 
-background: #F4F4FD;
-/* CORNFLOWER */
+  background: #f4f4fd;
+  /* CORNFLOWER */
 
-border: 1px solid #E7E9FC;
-border-radius: 4px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 
-/* Inside auto layout */
+  /* Inside auto layout */
 
-flex: none;
-order: 1;
-flex-grow: 0;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 
   color: #4d5ae5;
 }
