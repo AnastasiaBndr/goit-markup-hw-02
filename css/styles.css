@@ -15,6 +15,9 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.studio-color {
+  color: #2e2f42;
+}
 .small-title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -134,6 +137,10 @@ body {
 /* ==================FOOTER================== */
 
 .page-footer {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.17;
+  letter-spacing: 0.03;
+  color: #4d5ae5;
   width: 1440px;
   height: 312px;
   left: 0px;
