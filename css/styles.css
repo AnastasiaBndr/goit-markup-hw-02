@@ -4,11 +4,9 @@ body {
 }
 
 /* ==================ELEMENTS================== */
-
-element {
+:root {
   --small-text-color: #2e2f42;
 }
-
 /* ==================COMPONENTS================== */
 .secondary-title {
   font-size: 36px;
