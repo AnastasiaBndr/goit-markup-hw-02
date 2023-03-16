@@ -2,11 +2,15 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
 }
+
+/* ==================ELEMENTS================== */
+
+element {
+  --small-text-color: #2e2f42;
+}
+
 /* ==================COMPONENTS================== */
 .secondary-title {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   /* identical to box height, or 111% */
@@ -15,23 +19,21 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 
-  color: #2e2f42;
+  color: var(--small-text-color);
 }
 .studio-color {
-  color: #2e2f42;
+  color: var(--small-text-color);
 }
 .small-title {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--small-text-color);
 }
 .small-descr {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -70,7 +72,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--small-text-color);
 }
 .contact {
   font-style: normal;
@@ -97,19 +99,16 @@ body {
   text-decoration: none;
 }
 .menu-link {
-  color: #2e2f42;
+  color: var(--small-text-color);
 }
 
 /* ==================Hero================== */
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--small-text-color);
   width: 1440px;
   height: 600px;
 }
 .main-title {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
   text-align: center;
   font-size: 56px;
   line-height: 1.07;
@@ -121,12 +120,12 @@ body {
   width: 169px;
   height: 56px;
 
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -137,12 +136,6 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-  background: #f4f4fd;
-
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-
-  color: #404bbf;
 }
 .address {
   font-style: normal;
@@ -163,19 +156,17 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03;
   color: #4d5ae5;
-  width: 1440px;
-  height: 312px;
-  left: 0px;
-  top: 2280px;
 
   /* NAVY BLUE */
 
-  background: #2e2f42;
+  background: var(--small-text-color);
 }
 
 /* ==================PORTFOLIO================== */
 .navigation-button {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -191,12 +182,6 @@ body {
 
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 
   color: #4d5ae5;
 }
