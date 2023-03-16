@@ -1,11 +1,13 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: var(--background-color);
 }
 
 /* ==================ELEMENTS================== */
 :root {
   --small-text-color: #2e2f42;
+  --background-color: #ffffff;
 }
 /* ==================COMPONENTS================== */
 .secondary-title {
@@ -134,6 +136,7 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
+  background-color: #404bbf;
 }
 .address {
   font-style: normal;
